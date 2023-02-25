@@ -4,10 +4,9 @@ import Student from "./components/Student";
 //import Header from "./Header";
 
 function App() {
-  let name = "VIKAS";
   return (
     <div className="App">
-       <Student/>
+      <Student name="VIKAS" age={20} />
     </div>
   );
 }

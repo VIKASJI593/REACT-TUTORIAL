@@ -1,7 +1,6 @@
-css id ke liye css fle me # use kre
+props ka use ek baar likh us ko dusre jagah use karte hai
+eg- box me mobile hai lekin name alag alag
 
-//inline css
-<p style = {{backgroundColor:"grey"}}>This is child</p>
 
 //snippet
 rafce
@@ -13,17 +12,17 @@ npm audit fix --force
 
 git add .
 
-git commit -m "10-styling-react"
+git commit -m "11-props"
 
-git branch -M 10-styling-react
+git branch -M 11-props
 
 git branch
 
 git remote -v
 
-git push -u origin 10-styling-react
+git push -u origin 11-props
 
-git push -f -u origin 10-styling-react
+git push -f -u origin 11-props
 
 
 

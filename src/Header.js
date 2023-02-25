@@ -1,16 +1,12 @@
-/*--------normal function-------*/
 import React from "react";
-function Header ()  {
-  return <h1>This is Header</h1>;
-};
 
+function Header() {
+  return (
+    <>
+      <h1>This is Header</h1>
+      <p>This is child</p>
+    </>
+  );
+}
 
-function Footer ()  {
-  return <h1>This is Footer</h1>;
-};
-//export header by default,footer as object
 export default Header;
-export  {Footer};
-
-
-

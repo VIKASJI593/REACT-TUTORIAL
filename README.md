@@ -1,5 +1,4 @@
-//export header by default,
-footer as object in curly bracket
+agar do ya adhik child ho to fragment ya div ka use krte hai
 
 
 
@@ -9,17 +8,17 @@ npm audit fix --force
 
 git add .
 
-git commit -m "6-import-default-object"
+git commit -m "7-fragment"
 
-git branch -M 6-import-default-object
+git branch -M 7-fragment
 
 git branch
 
 git remote -v
 
-git push -u origin 6-import-default-object
+git push -u origin 7-fragment
 
-git push -f -u origin 6-import-default-object
+git push -f -u origin 7-fragment
 
 
 

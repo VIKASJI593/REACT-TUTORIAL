@@ -13,17 +13,17 @@ npm audit fix --force
 
 git add .
 
-git commit -m "9-styling-react"
+git commit -m "10-styling-react"
 
-git branch -M 9-styling-react
+git branch -M 10-styling-react
 
 git branch
 
 git remote -v
 
-git push -u origin 9-styling-react
+git push -u origin 10-styling-react
 
-git push -f -u origin 9-styling-react
+git push -f -u origin 10-styling-react
 
 
 

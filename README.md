@@ -1,5 +1,7 @@
 css id ke liye css fle me # use kre
 
+//inline css
+<p style = {{backgroundColor:"grey"}}>This is child</p>
 
 //snippet
 rafce

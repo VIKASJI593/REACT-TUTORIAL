@@ -6,7 +6,7 @@ function Header() {
   return (
     <div className="header">
       <h1 id="topic">This is Header</h1>
-      <p>This is child</p>
+      <p style = {{backgroundColor:"grey"}}>This is child</p>
       <Footer />
     </div>
   );

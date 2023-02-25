@@ -1,25 +1,22 @@
-import React, { Component } from "react";
+import React from "react";
+import "./App.css";
 
-class App extends Component {
-  render() {
+//imporet header
+import Header from "./Header";
 
-    //declare variable
-    let name = "VIKAS"
-    return (
-      <div className="App">
-        <div className="App-header">
+function App() {
 
-         {/* in jsx use curly bracket to use js */}
-          <h2>{name}</h2>
+  let name = "VIKAS";
+  return (
+    <div className="App">
+    {/* use header */}
+    <Header/>
+      <h1>{name}</h1>
+      <Header/>
 
-          <form action="required">
-            <input type={"text"}/>
-            <button>submit</button>
-          </form>
-        </div>
-      </div>
-    );
-  }
+      <Header/>
+    </div>
+  );
 }
 
 export default App;

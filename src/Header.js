@@ -8,7 +8,9 @@ function Header ()  {
 function Footer ()  {
   return <h1>This is Footer</h1>;
 };
-export  {Header,Footer};
+//export header by default,footer as object
+export default Header;
+export  {Footer};
 
 
 

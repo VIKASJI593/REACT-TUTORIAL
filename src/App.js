@@ -1,8 +1,8 @@
 import React from "react";
 import "./App.css";
 
-//import header,footer
-import {Header,Footer} from "./Header";
+//import header by default,footer as object
+import Header,{Footer} from "./Header";
 
 function App() {
 

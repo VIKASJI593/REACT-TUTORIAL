@@ -4,9 +4,9 @@ npm audit fix --force
 
 git add .
 
-git commit -m "1-import"
+git commit -m "2-import"
 
-git branch -M 1-import
+git branch -M 2-import
 
 git branch
 
@@ -17,9 +17,9 @@ git remote set-url origin https://github.com/VIKASJI593/REACT-TUTORIAL.git
 
 git remote -v
 
-git push -u origin 1-import
+git push -u origin 2-import
 
-git push -f -u origin 1-import
+git push -f -u origin 2-import
 
 
 //const Header = () => <h1>Header</h1>
@@ -28,10 +28,3 @@ git push -f -u origin 1-import
 
 
 
-
-//imporet header
-import Header from "./Header";
-
-{/* use header */}
-    <Header/>
-    

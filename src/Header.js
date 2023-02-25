@@ -1,13 +1,14 @@
-// import React from "react";
-// const Header = () => {
-//   return <h1>this is Header</h1>;
-// };
-// export default Header;
-
-
 /*--------normal function-------*/
 import React from "react";
 function Header ()  {
-  return <h1>this is Header</h1>;
+  return <h1>This is Header</h1>;
+};
+
+
+function Footer ()  {
+  return <h1>This is Footer</h1>;
 };
 export default Header;
+
+
+

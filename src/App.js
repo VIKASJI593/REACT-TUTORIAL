@@ -6,7 +6,11 @@ import Student from "./components/Student";
 function App() {
   return (
     <div className="App">
-      <Student name="VIKAS" age={20} />
+      <Student name="VIKAS" age={28} />
+
+      <Student name="SITARAM" age={30} />
+
+      <Student name="JAANU" age={35} />
     </div>
   );
 }

@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 
 //imporet header
-import Header from "./Header";
+import Application from "./Header";
 
 function App() {
 
@@ -10,9 +10,9 @@ function App() {
   return (
     <div className="App">
     {/* use header */}
-    <Header/>
+    <Application/>
       <h1>{name}</h1>
-      <Header/>
+      <Application/>
 
     </div>
   );

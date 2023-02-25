@@ -1,4 +1,4 @@
-agar do ya adhik child ho to fragment ya div ka use krte hai
+css id ke liye css fle me # use kre
 
 
 //snippet
@@ -11,17 +11,17 @@ npm audit fix --force
 
 git add .
 
-git commit -m "8-import-anywhere"
+git commit -m "9-styling-react"
 
-git branch -M 8-import-anywhere
+git branch -M 9-styling-react
 
 git branch
 
 git remote -v
 
-git push -u origin 8-import-anywhere
+git push -u origin 9-styling-react
 
-git push -f -u origin 8-import-anywhere
+git push -f -u origin 9-styling-react
 
 
 

@@ -1,13 +1,14 @@
 import React from "react";
-import Footer from "./Footer"
+import Footer from "./components/Footer"
+import "./Header.css";
 
 function Header() {
   return (
-    <>
-      <h1>This is Header</h1>
+    <div className="header">
+      <h1 id="topic">This is Header</h1>
       <p>This is child</p>
       <Footer />
-    </>
+    </div>
   );
 }
 

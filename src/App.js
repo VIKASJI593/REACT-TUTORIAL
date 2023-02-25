@@ -1,8 +1,8 @@
 import React from "react";
 import "./App.css";
 
-//imporet header
-import Application from "./Header";
+//import header,footer
+import {Header,Footer} from "./Header";
 
 function App() {
 
@@ -10,9 +10,10 @@ function App() {
   return (
     <div className="App">
     {/* use header */}
-    <Application/>
+    <Header/>
       <h1>{name}</h1>
-      <Application/>
+        {/* use footer */}
+      <Footer/>
 
     </div>
   );

@@ -1,4 +1,4 @@
-HEADER KI JAGAH APP.JS ME APPLICATION YA KUCHH BHI CHANGE KRNE  SE WHI CODE SHOW KREGA JO EXPORT DEFAULT FUNCTION HOGA
+import-multiple-function in curly bracket and export in curly bracket too
 
 
 
@@ -10,17 +10,17 @@ npm audit fix --force
 
 git add .
 
-git commit -m "4-import-application"
+git commit -m "5-import-multiple-function"
 
-git branch -M 4-import-application
+git branch -M 5-import-multiple-function
 
 git branch
 
 git remote -v
 
-git push -u origin 4-import-application
+git push -u origin 5-import-multiple-function
 
-git push -f -u origin 4-import-application
+git push -f -u origin 5-import-multiple-function
 
 
 

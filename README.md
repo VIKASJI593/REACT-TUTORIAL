@@ -12,17 +12,17 @@ npm audit fix --force
 
 git add .
 
-git commit -m "12-props-use"
+git commit -m "13-props-use"
 
-git branch -M 12-props-use
+git branch -M 13-props-use
 
 git branch
 
 git remote -v
 
-git push -u origin 12-props-use
+git push -u origin 13-props-use
 
-git push -f -u origin 12-props-use
+git push -f -u origin 13-props-use
 
 
 

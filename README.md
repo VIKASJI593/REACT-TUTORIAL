@@ -38,14 +38,14 @@ git init
 
 git add .
 
-git commit -m "15-props-movie-project-api&json"
+git commit -m "16-if-else-ternary"
 
-git branch -M 15-props-movie-project-api&json
+git branch -M 16-if-else-ternary
 
 git branch
 
 git remote -v
 
-git push -u origin 15-props-movie-project-api&json
+git push -u origin 16-if-else-ternary
 
-git push -f -u origin 15-props-movie-project-api&json
+git push -f -u origin 16-if-else-ternary

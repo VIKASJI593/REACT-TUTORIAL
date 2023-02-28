@@ -7,12 +7,12 @@ import Header from "./components/Header";
 function App() {
 const[num,setNum] = useState(2);
 
-function inc (){
-  setNum(num+1);
+function inc (n){
+  setNum(num+n);
 }
 
-function dec (){
-  setNum(num-1);
+function dec (n){
+  setNum(num-n);
 }
   return (
     <div className="App">
@@ -20,8 +20,8 @@ function dec (){
       <div className="main">
         <h1 className="heading">{num}</h1>
         <div className="buttons">
-          <button className="btn" onClick={inc}>increment</button>
-          <button className="btn" onClick={dec}>decrement</button>
+          <button className="btn" onClick={() => inc(1)}>increment</button>
+          <button className="btn" onClick={() => dec(2)}>decrement</button>
         </div>
       </div>
     </div>

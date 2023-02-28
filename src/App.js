@@ -1,92 +1,28 @@
-/*
-import { element } from "prop-types";
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 import Header from "./components/Header";
-import Movie from "./components/Movie";
-import movies from "./movie.json";
+//import { useState } from "react";
 //import Header from "./Header";
 
 function App() {
-  let login = false;
+const[num,setNum] = useState(2);
 
-  if (login == false) {
-    return <h1>ja mai tujhe nhi dekhna chahta</h1>;
-  }
+function inc (){
+  setNum(num+1);
+}
 
-  // if (login == true) {
-  //   return <h1>ja mai tujhe nhi dekhna chahta</h1>;
-  // }
-
-
-  
-
+function dec (){
+  setNum(num-1);
+}
   return (
     <div className="App">
       <Header />
       <div className="main">
-        {movies.map((element, index) => {
-          return (
-            <Movie
-              key={index}
-              title={element.Title}
-              year={element.Year}
-              img={element.Poster}
-            />
-          );
-        })}
-      </div>
-    </div>
-  );
-}
-
-export default App;
-*/
-
-
-//------------------------------ternary operator------------
-
-
-import { element } from "prop-types";
-import React from "react";
-import "./App.css";
-import Header from "./components/Header";
-import Movie from "./components/Movie";
-import movies from "./movie.json";
-//import Header from "./Header";
-
-function App() {
-  let login = false;
-
-  {
-  login == false? <h1 style ={{color="black"}}>mai tujhe abhi bhi nhi dikhaunga</h1> :<div>dekh le bhai</div>
-}
-
-
-
-  // if (login == true) {
-  //   return <h1>ja mai tujhe nhi dekhna chahta</h1>;
-  // }
-
-
-  return (
-    <div className="App">
-
-    {
-      login == false? <h1 style ={{color="black"}}>mai tujhe abhi bhi nhi dikhaunga</h1> :<div>dekh le bhai</div>
-    }
-      <Header />
-      <div className="main">
-        {movies.map((element, index) => {
-          return (
-            <Movie
-              key={index}
-              title={element.Title}
-              year={element.Year}
-              img={element.Poster}
-            />
-          );
-        })}
+        <h1 className="heading">{num}</h1>
+        <div className="buttons">
+          <button className="btn" onClick={inc}>increment</button>
+          <button className="btn" onClick={dec}>decrement</button>
+        </div>
       </div>
     </div>
   );

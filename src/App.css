@@ -1,67 +1,38 @@
 .App {
   text-align: center;
-  background-color: white;
-  color: white;
-  min-height: 100vh;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.header {
-  background-color: yellow;
-}
-
-.footer {
-  background-color: aqua;
-}
-
-#topic {
-  color: red;
-}
 h1 {
   margin: 0;
 }
+
 .header {
-  background-color: rgb(23, 32, 135);
-  padding: 8px;
+  color: white;
+  background-color: #1e272e;
+  padding: 14px;
+  width: 100%;
 }
-.main {
+
+.form {
+  margin-top: 20px;
+}
+.data {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  height: 90vh;
-  flex-wrap: wrap;
-  padding: 14px;
+  margin-top: 20px;
+  width: 100%;
 }
-.buttons {
+
+.data_val {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  width: 60%;
+  padding: 0px, 9px, 0px, 9px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px opx;
 }
-
-.btn {
-  background-color: rgb(51, 51, 175);
-  color: white;
-  padding: 5px;
-  margin: 5px;
-}
-
-.heading {
-  color: black;
-  font-size:80px;
-  margin: 10px;
-}
-
-/* .movie {
-  background-color: rgb(219, 212, 212);
-  color: black;
-  border: 1px solid gray;
-  padding: 3px;
-  font-weight: bold;
-  text-align: start;
-  width: 22%;
-  margin: 8px;
-}
-.movie img {
-  height: 220px;
-  width: 100px;
-} */

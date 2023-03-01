@@ -1,26 +1,6 @@
-const arr = [1,2,3,4,5]
-undefined
+npm install @mui/material @emotion/react @emotion/styled
 
-arr[0]
-1
-
-arr[0]
-2
-
-arr
-(5) [1, 2, 3, 4, 5]
-
-//---------------arrow function ke baad e dene se element show krta hai
-arr.map((e,i) => e)
-(5) [1, 2, 3, 4, 5]
-
-
-//---------------arrow function ke baad i dene se index show krta hai
-arr.map((e,i) => i)
-(5) [0, 1, 2, 3, 4]
-
-
-npm install prop-types
+npm install @mui/icons-material
 
 //prop import shortcut
 impt
@@ -38,14 +18,14 @@ git init
 
 git add .
 
-git commit -m "18-usestate-callback"
+git commit -m "19-usestate-project"
 
-git branch -M 18-usestate-callback
+git branch -M 19-usestate-project
 
 git branch
 
 git remote -v
 
-git push -u origin 18-usestate-callback
+git push -u origin 19-usestate-project
 
-git push -f -u origin 18-usestate-callback
+git push -f -u origin 19-usestate-project
